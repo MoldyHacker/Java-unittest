@@ -31,5 +31,17 @@ public class FizzBuzzTest {
         assertEquals("2", s);
     }
 
+    @Test
+    void Three() {
+        String s = fb.fizzBuzz(3);
+        assertEquals("Fizz", s);
+    }
+
+    @Test
+    void five() {
+        String s = fb.fizzBuzz(5);
+        assertEquals("Buzz", s);
+    }
+
 
 }
