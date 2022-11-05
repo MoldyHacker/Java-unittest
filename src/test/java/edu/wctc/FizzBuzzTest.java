@@ -61,5 +61,11 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", s);
     }
 
+    @Test
+    void thirty() {
+        String s = fb.fizzBuzz(30);
+        assertEquals("FizzBuzz", s);
+    }
+
 
 }
