@@ -49,5 +49,11 @@ public class FizzBuzzTest {
         assertEquals("Fizz", s);
     }
 
+    @Test
+    void ten() {
+        String s = fb.fizzBuzz(10);
+        assertEquals("Buzz", s);
+    }
+
 
 }
